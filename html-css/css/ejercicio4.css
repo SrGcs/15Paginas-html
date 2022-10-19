@@ -1,0 +1,15 @@
+#h2{
+    font-family: cursive;
+    color: aqua;
+}
+#tabla{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: crimson;
+}
+#container{
+    width: 800px;
+    height: 400opx;
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+}

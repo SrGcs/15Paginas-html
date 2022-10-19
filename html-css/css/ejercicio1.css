@@ -1,0 +1,15 @@
+#lenguaje{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+}
+#lenguaje2{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: brown;
+}
+#container{
+    width: 800px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: darksalmon;
+}

@@ -1,0 +1,130 @@
+<!--
+    ENTIDAD: Centro de Biotecnologia Agropecuaria
+    FICHA: 2558346
+    PROGRAMA: Analisis y Desarrollo De Dofware - ADSO
+    AUTOR: Santiago Rojas
+    OBJETIVO: Uso de las etiquetas HTM: h3, form, fieldset, legend, label, option, select, 
+    FECHA DE CREACION: 31 de Julio de 2022
+    FECHA DE MODIFICACIONES: 01 de Julio de 2022
+    VERSION: 2.0.0
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 14</title>
+        <link rel="stylesheet" href="css/ejercicio14.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <h3 id="h3">Rellena tu CV</h3>
+
+            <form class="form" action="/php/insertar_cv.php" method="post" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Datos personales</legend>
+
+                    <label for="provincia">Provincia</label><br>
+
+                    <select id="provincia" name="Provincia">
+                        <option value="01" selected="selected">-selecciona-</option>
+                        <option value="02">Alava/Araba</option>
+                        <option value="03">Albacete</option>
+                        <option value="04">alicante</option>
+                        <option value="05">almeria</option>
+                        <option value="06">austrias</option>
+                        <option value="07">avila</option>
+                        <option value="08">badajoz</option>
+                        <option value="09">balears</option>
+                        <option value="10">barcelona</option>
+                        <option value="11">burgos</option>
+                        <option value="12">caceres</option>
+                        <option value="13">cadiz</option>
+                        <option value="14">cantabaria</option>
+                        <option value="15">castellon</option>
+                        <option value="16">cauta</option>
+                        <option value="17">ciudad real</option>
+                        <option value="18">cordoba</option>
+                        <option value="19">coruña</option>
+                        <option value="20">cuenca</option>
+                        <option value="21">girona</option>
+                        <option value="22">granada</option>
+                        <option value="23">guadalajara</option>
+                        <option value="24">guipuzcoa</option>
+                        <option value="25">huelva</option>
+                        <option value="26">huesca</option>
+                        <option value="27">jaen</option>
+                        <option value="28">leon</option>
+                        <option value="29">lugo</option>
+                        <option value="30">lleida</option>
+                        <option value="31">madrid</option>
+                        <option value="32">malaga</option>
+                        <option value="33">medila</option>
+                        <option value="34">murcia</option>
+                        <option value="35">navarra</option>
+                        <option value="36">ourense</option>
+                        <option value="37">palencia</option>
+                        <option value="38">palmas(las)</option>
+                        <option value="39">salamanca</option>
+                        <option value="40">santa cruz de tenefire</option>
+                        <option value="41">segovia</option>
+                        <option value="42">sevilla</option>
+                        <option value="43">soria</option>
+                        <option value="44">tarragona</option>
+                        <option value="45">teruel</option>
+                        <option value="46">toledo</option>
+                        <option value="47">valencia</option>
+                        <option value="48">valladolid</option>
+                        <option value="49">vizcaya</option>
+                        <option value="50">zamorra</option>
+                        <option value="51">zaragoza</option>
+
+                    </select>
+                    <br><br>
+                    <label for="fecha_dia">Fecha de nacimiento</label><br>
+                    <input type="text" size="3" maxlength="2" id="fecha_dia"/>
+
+                    de
+                    <select id="fecha_mes" name="fecha_mes">
+                        <option value="01">enero</option>
+                        <option value="02">febrero</option>
+                        <option value="03">marzo</option>
+                        <option value="04">abril</option>
+                        <option value="05">mayo</option>
+                        <option value="06">junio</option>
+                        <option value="07">julio</option>
+                        <option value="08">agosto</option>
+                        <option value="09">septiembre</option>
+                        <option value="10">octubre</option>
+                        <option value="11">noviembre</option>
+                        <option value="12">diciembre</option>
+                    </select>
+                    de
+
+                    <input type="text" size="5" maxlength="4" id="fecha_ano"/>
+                    <br><br>
+                    <label>TemasDeInteres</label><br>
+                    <select name="TemasDeInteres">
+
+                        <option value="3105">Administracion de la base de datos</option>
+                        <option value="3106">Analisis y programacion</option>
+                        <option value="3107">Arquitectura</option>
+                        <option value="3108">Calidad</option>
+                        <option value="3109">ERP, CRM business Inteligence</option>
+                        <option value="3110">Gestion de proyectos</option>
+                        <option value="3111">hardware, redes y seguridad</option>
+                        <option value="3112">helpdesk</option>
+                        <option value="3113">sistemas</option>
+                        <option value="3114">Telecomunicaciones</option>
+                    </select>
+                </fieldset>
+            </form>
+        </div>
+
+    </body>
+
+</html>

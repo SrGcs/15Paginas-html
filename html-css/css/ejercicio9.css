@@ -1,0 +1,19 @@
+#container{
+    background-color: bisque;
+    width: 800px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.par{
+    color: maroon;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#h30{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+}
+#h31{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

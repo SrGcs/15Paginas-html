@@ -1,0 +1,11 @@
+#container{
+    background-color: honeydew;
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.form{
+    color:blueviolet;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

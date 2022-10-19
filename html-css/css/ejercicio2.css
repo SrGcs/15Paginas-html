@@ -1,0 +1,21 @@
+#titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: chartreuse;
+}
+#parrafo1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(229, 107, 103)
+    
+}
+#etiqueta{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+#container{
+    background-color: darkgray;
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
