@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-color:chartreuse;
+    width: 700px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#enc{
+    background-color: aqua;
+    height: 150px;
+    width: 700px;
+}
+#men{
+    background-color: cornflowerblue;
+    height: 50px;
+    width: 700px;
+}
+#cue{
+    background-color: darkgray;
+    width: 700px;
+    height: 550px;
+}
+#pie{
+    background-color: darkkhaki;
+    width: 700px;
+    height: 50px;
+}

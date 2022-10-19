@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>maqueta13</title>
+        <link rel="stylesheet" href="css/maqueta13.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1 id="tit"> Maqueta13</h1>
+
+            </div>
+
+            <div id="nav">
+                <h1 id="mq">Maqueta13</h1>
+
+            </div>
+
+            <div id="main">
+                <h3>Rellena tu CV</h3>
+                <form action="/php/insertar_cv.php" method="post" enctype="multipart/form-data">
+                    Nombre <br>
+
+                    <input type="text" name="Nombre" value="" size="20" maxlength="30"/>
+                    <br>
+                    Apellidos <br>
+                    <input type="text" name="Apel lidos" value="" size="50" maxlength="80"/>
+                    <br>
+                    contraseña <br>
+
+                    <input type="password" name="Contraseña" value="" maxlength="10"/>
+                    <br>
+
+                    DNI <br>
+
+                    <input type="text" name="DNI" value="" size="10" maxlength="9"/>
+                    <br>
+
+                    sexo <br>
+                    <input type="radio" name="sexo" value="hombre"/>Hombre <br>
+                    <input type="radio" name="sexo" value="mujer"/> mujer
+                    <br><br>
+
+                    incluir mi foto <input name="foto"/>
+
+                    <br><br>
+
+                    <input value="suscribir"/>suscribirme al boletin
+                    de novedades
+                    <br><br>
+
+                    <input type="submit" name="enviar" value="guardar cambios"/>
+                    <input type="reset" name="limpiar" value="borrar datos introducidos"/>
+                </form>
+            </div>
+
+            <div id="footer">
+                <p id="der"><strong> Rojas Copyrigth @ 2022 Aprendiz de C.B.A (A.D.S.O)</strong><br>
+                    <strong>Redes</strong> - @imasantiagorojas
+                </p>
+                <img src="img/w3c.png" alt="w3c" width="30" height="20">
+
+            </div>
+        </div>
+
+    </body>
+
+</html>

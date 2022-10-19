@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-color: aquamarine;
+    width: 700px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header{
+    background-color: aqua;
+    height: 150px;
+    width: 700px;
+}
+#enc{
+    color: brown;
+    font-size: 50px;
+    font-family:monospace;
+}
+#nav{
+    background-color: burlywood;
+    width: 700px;
+    height: 60px;
+}
+#footer{
+    background-color: rgb(22, 90, 90);
+    width: 700px;
+    height: 80px;
+}

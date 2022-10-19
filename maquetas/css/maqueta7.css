@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-color: aqua;
+    width: 750px;
+    height: 800px;
+    margin-left: auto;
+    margin-right:auto;
+}
+#header{
+    background-color: cadetblue;
+    width: 750px;
+    height: 150px;
+}
+#nav{
+    background-color: blanchedalmond;
+    width: 750px;
+    height: 100px;
+}
+#main{
+    background-color: coral;
+    width: 750px;
+    height: 480px;
+} 
+#footer{
+    background-color: cornflowerblue;
+    width: 750px;
+    height: 70px;
+}
+#nc{
+    color: orange;
+    font-size: 60px;
+    font-family: monospace;
+}
+#not{
+    font-family: 'Times New Roman', Times, serif;
+    color: chocolate;
+    font-size: 40px;
+}
+
